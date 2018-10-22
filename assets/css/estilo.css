@@ -1,0 +1,83 @@
+body{
+    font-family: sans-serif, 'Charmonman', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #152e42;
+}
+.menu{
+    font-family: 'Open Sans Condensed' , cursive;
+    display: flex;
+    padding: 10px;
+    padding-bottom: 20px;  
+    background-color: black;
+    margin-top: -15px;    
+}
+section{
+    padding: 300px;
+
+}
+#name{
+    background-image:url("../imagens/code.jpg");
+    background-size: cover;
+    font-family: 'Charmonman' , sans-serif;
+    color: white;
+    
+    
+}
+
+.menu li{
+    display: inline;
+    padding-left: 140px;
+    justify-content: space-between;
+
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+} 
+
+a:hover{
+    color: orangered;
+
+}
+
+ul,ol li{
+    list-style: none;
+
+  }
+
+main{
+
+}
+
+.container > div > ul{
+    margin-right: 200px;
+
+}
+
+  h1{
+    font-family: 'Charmonman' , sans-serif;
+    text-align: center;
+
+}
+
+.segmentos{
+    margin-top:-300px;
+ 
+}
+
+.container{
+    display: flex;
+    align-items:center;
+    flex-direction: row-reverse;
+    flex-wrap: row wrap;
+}
+
+.imagens{
+    width: 10cm;
+    height:10cm;
+}
+
+
+
+  
